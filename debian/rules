@@ -24,4 +24,6 @@ override_dh_install:
 	docker save -o debian/tmp/var/lib/delphix-virtualization/docker-python-2-7-18-slim.tar registry.delphix.com/python:2.7.18-slim
 	docker pull registry.delphix.com/python:3.8-slim
 	docker save -o debian/tmp/var/lib/delphix-virtualization/docker-python-3-8-slim.tar registry.delphix.com/python:3.8-slim
+	docker pull registry.delphix.com/python:3.11-slim
+	docker save -o debian/tmp/var/lib/delphix-virtualization/docker-python-3-11-slim.tar registry.delphix.com/python:3.11-slim
 	dh_install --autodest "debian/tmp/*"

@@ -23,4 +23,4 @@ Standards-Version: 4.1.2
 Package: docker-python-image
 Architecture: all
 Description: Saves the docker python images to disk
- The python base image will be located at /opt/delphix/server/etc
+ The python base images will be located at /var/lib/delphix-virtualization
