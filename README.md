@@ -1,6 +1,6 @@
 # Docker Python Image
 
-This repository contains the script to pull the python 2.7, 3.8 and 3.11 slim images as tar files into Delphix engines.
+This repository contains the script to pull the python 3.11 slim image as a tar file into Delphix engines.
 The location to save the images is `debian/tmp/var/lib/delphix-virtualization` and in Delphix engine it is saved at
 `/var/lib/delphix-virtualization`.
 
